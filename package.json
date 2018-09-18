@@ -1,0 +1,21 @@
+{
+  "name": "yes-cli",
+  "version": "1.0.0",
+  "description": "Command line interface for yes-framework development",
+  "bin": {
+    "yes": "bin/yes.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhufengcn/yes-cli.git"
+  },
+  "keywords": [
+    "yes"
+  ],
+  "author": "zhufengcn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhufengcn/yes-cli/issues"
+  },
+  "homepage": "https://github.com/zhufengcn/yes-cli#readme"
+}
