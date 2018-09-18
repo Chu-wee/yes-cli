@@ -7,4 +7,8 @@ program
     .version(require('../package').version)
     .usage('<command> [options]');
 program
-    .command('create <app-name>');
+    .command('create <app-name>')
+    .action((name, cmd) => {
+        const options = cmd;
+        require('../commands/create')(name, options);
+    });
